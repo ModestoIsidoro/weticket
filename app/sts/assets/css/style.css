@@ -1,0 +1,208 @@
+/*Importação de fontes*/
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../font/Quicksand/Quicksand-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Quicksand-Light';
+    src: url('../font/Quicksand/static/Quicksand-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Quicksand-Medium';
+    src: url('../font/Quicksand/static/Quicksand-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Quicksand-Regular';
+    src: url('../font/Quicksand/static/Quicksand-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Quicksand-Semibold';
+    src: url('../font/Quicksand/static/Quicksand-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Quicksand-Bold';
+    src: url('../font/Quicksand/static/Quicksand-Bold.ttf') format('truetype');
+}
+
+/*Configuraçoes gerais*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand';
+}
+
+body{
+    height: 100%;
+}
+
+.imagem{
+    height: 80px;
+}
+
+/*HEADER*/
+
+header .nav-link{
+    display: flex;
+    align-items: center;
+    font-family: 'Quicksand-SemiBold';
+    font-size: 18px;
+    color: #003459;
+    padding: 7px;
+}
+
+.nav-link:hover, .nav-link:active, .nav-link:visited{
+    color: #003459;
+}
+
+/*SECTION 1*/
+.sessao-1{
+    margin-top: 15vh;
+}
+
+.titulo{
+    font-family: 'Quicksand-Bold';
+    line-height: 1.2;
+    color: #003459;
+}
+
+.titulo-flex{
+    width: 60%;
+}
+
+.texto-aux{
+    font-family: 'Quicksand-Medium';
+    color: #003459;
+}
+
+/*SECTION 2*/
+
+.img-svg{
+    display: flex;
+    margin-right: 20px;
+}
+
+.svgRotate{
+    transform: rotate(-38deg);
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    --bs-card-border-color: none;
+}
+
+.descricao{
+    text-align: none;
+    color: #003459;
+    font-size: 16px;
+    font-family: 'Quicksand-SemiBold';
+    margin: 0;
+}
+
+/*SECTION 3*/
+
+.logo-transport{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 100%;
+    border-radius: .4rem;
+    box-shadow: 0 3px 8px #0034594f;
+}
+
+/*SECTION 4*/
+.feedback{
+    font-family: 'Quicksand-Bold';
+    font-size: 18px;
+    color: #0034594f;
+}
+
+.imagem-feedback{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/*SECTION 5 MAPA*/
+
+.mapa{
+    position: relative;
+    overflow: hidden;
+    height: 0;
+    padding-bottom: 40%;
+}
+
+.mapa iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*FOOTER*/
+
+
+ul svg{
+    height: 30px;
+    width: 30px;
+    fill: #003459;
+}
+
+.svg-m{
+    margin: 0 15px;
+}
+
+.titulo-footer{
+    font-family: 'Quicksand-Semibold';
+    color: #0034597e;
+    font-size: 15px;
+    margin-bottom: 0.5rem;
+}
+
+footer .nav-link{
+    padding: 3px 0 !important;
+    font-size: 17px;
+    display: inline-block;
+    color: #003459;
+    font-family: 'Quicksand-Bold';
+}
+
+footer hr{
+    color: #00345965;
+}
+
+footer .copy{
+    font-family: 'Quicksand-Bold';
+    color: #0034598f;
+    font-size: 12px;
+}
+
+.dot{
+    padding: 2px;
+    background-color: #00345956;
+    border-radius: 50%;
+    margin: auto 0;
+}
+
+.posicao{
+    bottom: 0;
+    right: 12px;
+}
+
+@media (max-width: 767px) {
+    .titulo-flex{
+        width: auto;
+    }
+
+    .imagem-feedback{
+        top: -30px;
+    }
+}

@@ -1,0 +1,94 @@
+.conjuntoInputModal{
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.entradaModal{
+    width: 100%;
+    border: none;
+    background-color: #00345928;
+    color: #003459;
+    padding: 8px;
+    font-family: 'Quicksand-Bold';
+    font-size: 18px;
+    border-radius: 0.375rem;
+}
+
+.entradaModal::placeholder{
+    font-family: 'Quicksand-Bold';
+    color: #00345993;
+    font-size: 18px;
+}
+
+.entradaModal:focus{
+    color: #003459;
+}
+
+label{
+    font-size: 14px;
+    font-family: 'Quicksand-Bold';
+    color: #003459;
+    display: inline-block;
+}
+
+.conjuntoInputModal label{
+    position:absolute;
+    top: -13px;
+    left: 10px;
+    padding: 2px;
+    z-index: 1;
+}
+
+.conjuntoInputModal label::after{
+    content: "";
+    background-color: #fff;
+    width: 100%;
+    height: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 8px;
+    z-index: -1;
+}
+
+.title-section{
+    font-family: 'Quicksand-Semibold';
+    color: #003459;
+}
+
+.btn-primary{
+    background-color: #003459 !important;
+    color: #fff;
+    font-family: 'Quicksand-Semibold';
+    border: none !important;
+}
+
+.termos {
+    text-decoration: none;
+    color: #003459;
+    font-family: 'Quicksand-Semibold';
+}
+
+.termos:hover{
+    color: #003459;
+}
+
+.forgoten {
+    text-decoration: none;
+    font-family: 'Quicksand-Semibold';
+    font-size: 16px;
+}
+
+.forgoten:hover{
+    color: #003459;
+}
+
+.signup {
+    color: #003459;
+    font-family: 'Quicksand-Semibold';
+    font-size: 17px;
+}
+
+.signup:hover{
+    color: #003459;
+}

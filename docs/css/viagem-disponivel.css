@@ -1,0 +1,119 @@
+.bilhete-disp {
+    border-radius: .4rem;
+    box-shadow: 0 0 5px #00345971;
+    padding: 15px 25px;
+    margin-bottom: 20px;
+}
+
+.tran-1 {
+    height: 40px;
+    width: 80px;
+}
+
+.div-trans {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.valor  span {
+    font-family: 'Quicksand-bold';
+    font-size: 23px;
+    color: #003459;
+    text-transform: uppercase;
+}
+
+.ponto {
+    font-family: 'Quicksand-bold';
+    font-size: 20px;
+    color: #003459;
+    text-transform: uppercase;
+    margin-right: 5px;
+}
+
+.hora {
+    position: absolute;
+    top: -16px;
+    left: 0;
+    font-family: 'Quicksand-semibold';
+    font-size: 15px;
+    color: #003459b7;
+}
+
+.viagem{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.viagem svg:nth-child(2){
+    margin: 0 4vw;
+}
+
+.origem, .destino {
+    display: flex;
+    align-items: center;
+}
+
+.origem svg, .destino svg {
+    height: 22px;
+    width: 22px;
+    fill: #0034596c;
+    margin-right: 7px;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 335px) {
+    .viagem{
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .viagem svg:nth-child(2){
+        width: 23px;
+        margin: 15px 0 20px 0;
+        transform: rotate(90deg);
+    }
+
+    .tempo{
+        flex-direction: column;
+    }
+
+    .btn-selecionar{
+        margin-top: 10px;
+    }
+    
+}
+
+.tempo{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tempo svg{
+    height: 20px;
+    width: 20px;
+    fill: #0034596c;
+}
+
+.distancia{
+    display: flex;
+    align-items: center;
+}
+
+.distancia span{
+    margin-left: 15px;
+    color: #0034598e;
+    font-size: 14px;
+}
+
+.btn-selecionar{
+    background: #003459;
+    color: #fff;
+    font-family: 'Quicksand-bold';
+    font-size: 17px;
+    padding: 7px 15px;
+    border-radius: .4rem;
+    border: none;
+}

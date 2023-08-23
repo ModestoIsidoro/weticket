@@ -1,0 +1,37 @@
+.bus-seat {
+    width: fit-content;
+    margin: 20px auto;
+    border: 2px solid #333;
+    background-color: #f0f0f0;
+    padding: 10px;
+    position: relative;
+}
+
+.rowSeat {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.seat {
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+    text-align: center;
+    line-height: 37px;
+    border: solid #003459 2px;
+    border-radius: .2rem;
+    color: #003459;
+    font-family: 'Quicksand-Semibold';
+    cursor: pointer;
+}
+
+.reserve {
+    background-color: #003459;
+    color: #fff;
+}
+
+.reserved {
+    background-color: #f00;
+    color: #fff;
+}

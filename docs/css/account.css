@@ -1,0 +1,108 @@
+main{
+    margin-top: 16vh;
+    min-height: 72vh;
+}
+
+.links-perfil{
+    display: flex;
+    flex-direction: column;
+    background: #00345928;
+    border-radius: .375rem;
+    padding: 10px;
+}
+
+.links-perfil a{
+    text-decoration: none;
+    font-family: 'Quicksand-Bold';
+    font-size: 1.05rem;
+    color: #003459;
+    margin: 2px;
+    padding: 2px;
+}
+
+.links-perfil .active{
+    background-color: #00345928;
+    border-radius: .375rem;
+    padding: 2px 10px;
+}
+
+.bordas{
+    display: flex;
+}
+
+.conjuntoInput{
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.entrada{
+    width: 100%;
+    border: none;
+    background-color: #00345952;
+    color: #003459;
+    padding: 7px;
+    font-family: 'Quicksand-Bold';
+    font-size: 18px;
+    border-radius: 0.375rem;
+}
+
+.entrada::placeholder{
+    font-family: 'Quicksand-Bold';
+    color: #00345993;
+    font-size: 18px;
+}
+
+.entrada:focus{
+    color: #003459;
+}
+
+label{
+    font-size: 14px;
+    font-family: 'Quicksand-Bold';
+    color: #003459;
+    display: inline-block;
+}
+
+.conjuntoInput label{
+    position:absolute;
+    top: -13px;
+    left: 10px;
+    padding: 2px;
+    z-index: 1;
+}
+
+.conjuntoInput label::after{
+    content: "";
+    width: 100%;
+    height: 13px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.bordas .conjuntoInput:nth-child(1){
+    margin-right: 10px;
+}
+
+.title-section{
+    font-family: 'Quicksand-Semibold';
+    color: #003459;
+    font-size: 1.1rem;
+}
+
+#btnAlterar{
+    padding: 7px 50px;
+    border: none;
+    border-radius: .4rem;
+    background-color: #003459;
+    color: #fff;
+    font-family: 'Quicksand-Semibold';
+}
+
+@media (max-width: 768px) {
+    #sessaoDois{
+        margin-top: 3vh;
+    }
+}

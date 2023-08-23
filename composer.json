@@ -1,0 +1,15 @@
+{
+    "description": "Meu proecto para TCC",
+    "authors": [
+        {
+            "name": "Modesto de Jesus Isidoro",
+            "email": "modestodejesus14@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app",
+            "Core\\": "core"
+        }
+    }
+}
