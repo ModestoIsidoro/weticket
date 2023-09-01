@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="25" height="10" viewBox="0 0 33 22.884">
-  <g id="Setas" transform="translate(1.5 1.942)">
-    <path id="Caminho_1" data-name="Caminho 1" d="M1152,188.182h30l-15.389-6" transform="translate(-1152 -182.182)" fill="none" stroke="rgba(0,52,89,0.37)" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-    <path id="Caminho_2" data-name="Caminho 2" d="M1152,188.182h30l-15.389-6" transform="translate(1182 201.182) rotate(180)" fill="none" stroke="rgba(0,52,89,0.37)" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-  </g>
-</svg>
